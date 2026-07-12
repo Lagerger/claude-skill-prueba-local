@@ -32,7 +32,17 @@ La prioridad es:
 - No instalar dependencias globales si no es necesario.
 - No corregir errores ajenos al pedido sin explicarlos primero.
 - No detener el servidor después de levantarlo, salvo que el usuario lo pida.
+- No crear archivos o carpetas auxiliares para levantar el proyecto cuando pueda ejecutarse directamente mediante un servidor temporal.
 
+  ## Apertura del proyecto
+
+Después de verificar que el servidor responde:
+
+1. Usar la vista previa integrada si la plataforma la ofrece.
+2. Si no existe vista previa integrada, abrir automáticamente la URL en el navegador predeterminado.
+3. Mostrar también la URL como enlace Markdown, en una línea separada.
+4. No obligar al usuario a copiar manualmente la dirección salvo que la plataforma no permita otra opción.
+  
 ## Procedimiento
 
 ### 1. Confirmar la carpeta del proyecto

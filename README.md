@@ -71,16 +71,15 @@ Esta variante sirve cuando querés que la skill esté disponible únicamente en 
 
 ## Uso
 
-Dentro de Claude Code, podés escribir:
+Dentro de Claude Code, la forma más confiable de invocarla es:
 
 ```text
-/prueba-local
-```
+Usá la skill prueba-local para levantar este proyecto.
 
 También podés acompañarla con una indicación concreta:
 
 ```text
-/prueba-local Levantá solamente el frontend y dejalo funcionando para que lo pruebe.
+/prueba-local 
 ```
 
 O pedirlo en lenguaje natural:

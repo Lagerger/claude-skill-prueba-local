@@ -34,15 +34,16 @@ La prioridad es:
 - No detener el servidor después de levantarlo, salvo que el usuario lo pida.
 - No crear archivos o carpetas auxiliares para levantar el proyecto cuando pueda ejecutarse directamente mediante un servidor temporal.
 
-## Apertura del proyecto
+## Enlace de acceso
 
-Después de verificar que el servidor responde:
+Después de verificar que el servidor funciona:
 
-1. Mostrar la URL local en una línea separada.
-2. Presentarla como enlace Markdown clickeable cuando la plataforma lo permita.
-3. Usar un texto claro, por ejemplo: `Abrir proyecto en localhost`.
+1. Mostrar la URL local completa en una línea separada.
+2. Escribirla fuera de bloques de código, tablas o recuadros técnicos.
+3. Usar el formato directo `http://localhost:PUERTO` para que la plataforma pueda convertirla en enlace clickeable.
 4. No abrir automáticamente el navegador ni la vista previa.
-5. Si la plataforma no permite enlaces clickeables, mostrar la URL completa para copiar.
+5. Dejar que el usuario decida cuándo abrir el proyecto.
+6. Si la plataforma no convierte la URL en enlace, mostrarla igualmente completa para copiar.
   
 ## Procedimiento
 
